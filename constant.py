@@ -53,4 +53,5 @@ SUCCESS = 'success'
 ERROR = 'error'
 
 QUERYSET_PRODUCT_LIMIT = 2
-LOCAL_SERVER_URL = "http://127.0.0.1:8000"
+# LOCAL_SERVER_URL = "http://127.0.0.1:8000"
+LOCAL_SERVER_URL = "https://online-cloth-store.herokuapp.com"
