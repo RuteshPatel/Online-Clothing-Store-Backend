@@ -28,8 +28,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost:3000',
     # 'localhost:3001',
-    'online-cloth-store.herokuapp.com',
-    '*'
+    'online-cloth-store.herokuapp.com'
 ]
 
 # Application definition
@@ -158,4 +157,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://online-cloth-store-react.herokuapp.com"
 ]
