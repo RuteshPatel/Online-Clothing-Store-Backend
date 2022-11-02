@@ -28,6 +28,8 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost:3000',
     # 'localhost:3001',
+    'online-cloth-store.herokuapp.com',
+    '*'
 ]
 
 # Application definition
