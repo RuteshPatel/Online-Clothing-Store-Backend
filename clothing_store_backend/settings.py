@@ -101,10 +101,14 @@ WSGI_APPLICATION = 'clothing_store_backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'dcunr0joup2v96',
+       'USER': 'swhchcrfcosick',
+       'PASSWORD': '9e1436de81a1d0272ed31a4c718b5ac9c36da0b88826d1cd33edc27874dbb9f8',
+       'HOST': 'ec2-54-163-34-107.compute-1.amazonaws.com',
+       'PORT': '5432',
+   }
 }
 
 # Password validation
